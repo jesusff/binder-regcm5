@@ -3,20 +3,18 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - gfortran
-  - mpi
-  - nco
-  - ncview
-  - cdo
-  - libnetcdf
-  - netcdf-fortran
+  - gfortran==12.1.0
+  - mpi==1.0
+  - nco==5.1.0
+  - ncview==2.1.8
+  - cdo==2.0.5
+  - libnetcdf==4.8.1
+  - netcdf-fortran==4.6.0
   # Jupyter dependencies
-  - bash_kernel
+  - bash_kernel==0.8.0
   # required to decouple binder and repo
-  - nbgitpuller
+  - nbgitpuller==1.1.0
   # optional jupyterlab extensions (i.e. git) build dependencies
-  - jupyterlab-git #==0.37.1
-  - nodejs #==17.9.0
-  - wheel #==0.37.1
+  - jupyterlab-git==0.39.1
   # Other
-  - gh #==2.11.3
+  - gh==2.14.7
