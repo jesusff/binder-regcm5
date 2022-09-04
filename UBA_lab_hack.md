@@ -7,3 +7,11 @@ conda activate regmc5            # (regcm5) becomes the current environment
 ```
 
 These commands will need to be issued on any new terminal.
+
+To compile the model:
+
+```
+./bootstrap.sh
+./configure --enable-clm45
+make
+```
