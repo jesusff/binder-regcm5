@@ -4,7 +4,7 @@ channels:
   - defaults
 dependencies:
   - gfortran==12.1.0
-  - mpi==1.0
+  - openmpi
   - nco==5.1.0
   - ncview==2.1.8
   - cdo==2.0.5
