@@ -10,8 +10,8 @@ These commands will need to be issued on any new terminal.
 
 To compile the model:
 
-```
+```bash
 ./bootstrap.sh
-./configure --enable-clm45
+./configure --enable-nc4 --enable-clm45
 make
 ```
